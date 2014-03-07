@@ -23,6 +23,7 @@ namespace Iheik
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+            //Change at 11:24 AM
         }
     }
 }
