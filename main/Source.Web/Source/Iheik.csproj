@@ -165,10 +165,24 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Attributes\AllowAnonymousAttribute.cs" />
+    <Compile Include="Attributes\FromJsonAttribute.cs" />
+    <Compile Include="Attributes\IgnoreSessionExpireAttribute.cs" />
+    <Compile Include="Attributes\PlaceHolderAttribute.cs" />
+    <Compile Include="Attributes\RemoteRequireHttpsAttribute.cs" />
+    <Compile Include="Attributes\RequireAuthenticationAttribute.cs" />
+    <Compile Include="Attributes\RequireOneOfAttribute.cs" />
+    <Compile Include="Attributes\SessionExpireFilterAttribute.cs" />
+    <Compile Include="Attributes\StringValueAttribute.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Extensions\ControllerExtensions.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Filters\CompressedResponseAttribute.cs" />
+    <Compile Include="Filters\IgnoreSessionExpireAttribute.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Filters\LogExceptionFilterAttribute.cs" />
+    <Compile Include="Filters\SessionExpireFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,6 +196,7 @@
     <Compile Include="Plumbing\WindsorDependencyResolver.cs" />
     <Compile Include="Plumbing\WindsorExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\AlphaNumericAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
