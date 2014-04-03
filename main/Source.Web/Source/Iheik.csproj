@@ -178,6 +178,11 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Extensions\ControllerExtensions.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Extensions\GroupedSelectExtension.cs" />
+    <Compile Include="Extensions\HtmlLabelExtension.cs" />
+    <Compile Include="..\..\Iheik.Web\Source\Extensions\SelectListExtension.cs">
+      <Link>Extensions\SelectListExtension.cs</Link>
+    </Compile>
     <Compile Include="Filters\CompressedResponseAttribute.cs" />
     <Compile Include="Filters\IgnoreSessionExpireAttribute.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -186,6 +191,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\UserAccessHelper.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Plumbing\CustomAdoNetAppender.cs" />
     <Compile Include="Plumbing\JsonNetResult.cs" />
