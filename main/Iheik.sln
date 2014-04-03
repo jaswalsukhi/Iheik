@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik", "Iheik.Web\Source\Iheik.csproj", "{326118A1-351E-48D0-975B-4EB6321FCB84}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Tests", "Iheik.Web\Tests\Iheik.Tests.csproj", "{FE9BC38F-D562-4F25-9597-9DA8CD58DDAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FDB8F89A-8E07-4834-A252-0FE6535CA12F}"
@@ -18,16 +16,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Domain", "Iheik.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Domain.Tests", "Iheik.Domain\Tests\Iheik.Domain.Tests.csproj", "{48F2CA79-5602-4E46-8264-8116396CE3BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik", "Iheik.Web\Source\Iheik.csproj", "{326118A1-351E-48D0-975B-4EB6321FCB84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{326118A1-351E-48D0-975B-4EB6321FCB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{326118A1-351E-48D0-975B-4EB6321FCB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE9BC38F-D562-4F25-9597-9DA8CD58DDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE9BC38F-D562-4F25-9597-9DA8CD58DDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE9BC38F-D562-4F25-9597-9DA8CD58DDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -40,6 +36,10 @@ Global
 		{48F2CA79-5602-4E46-8264-8116396CE3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F2CA79-5602-4E46-8264-8116396CE3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F2CA79-5602-4E46-8264-8116396CE3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326118A1-351E-48D0-975B-4EB6321FCB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326118A1-351E-48D0-975B-4EB6321FCB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
