@@ -18,6 +18,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Domain.Tests", "Iheik
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik", "Iheik.Web\Source\Iheik.csproj", "{326118A1-351E-48D0-975B-4EB6321FCB84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.ServiceInteractions", "Iheik.ServiceInteractions\Source\Iheik.ServiceInteractions.csproj", "{6D51A385-F2ED-4516-8662-061C67458DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheil.ServiceInteractions.Tests", "Iheik.ServiceInteractions\Tests\Iheil.ServiceInteractions.Tests.csproj", "{49A9CF19-C87B-47EF-B6B4-FAD9FEF4E20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Utilities", "Iheik.Utilities\Source\Iheik.Utilities.csproj", "{18A5F25A-6151-4273-9657-73A84ED6778F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iheik.Utilities.Tests", "Iheik.Utilities\Tests\Iheik.Utilities.Tests.csproj", "{D1D70DB5-1BD8-4BDC-834B-6473E45CC074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +48,22 @@ Global
 		{326118A1-351E-48D0-975B-4EB6321FCB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326118A1-351E-48D0-975B-4EB6321FCB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D51A385-F2ED-4516-8662-061C67458DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D51A385-F2ED-4516-8662-061C67458DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D51A385-F2ED-4516-8662-061C67458DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D51A385-F2ED-4516-8662-061C67458DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A9CF19-C87B-47EF-B6B4-FAD9FEF4E20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A9CF19-C87B-47EF-B6B4-FAD9FEF4E20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A9CF19-C87B-47EF-B6B4-FAD9FEF4E20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A9CF19-C87B-47EF-B6B4-FAD9FEF4E20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A5F25A-6151-4273-9657-73A84ED6778F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A5F25A-6151-4273-9657-73A84ED6778F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A5F25A-6151-4273-9657-73A84ED6778F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A5F25A-6151-4273-9657-73A84ED6778F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D70DB5-1BD8-4BDC-834B-6473E45CC074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D70DB5-1BD8-4BDC-834B-6473E45CC074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D70DB5-1BD8-4BDC-834B-6473E45CC074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D70DB5-1BD8-4BDC-834B-6473E45CC074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
