@@ -48,8 +48,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Castle.Core.3.3.0\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.Facilities.Logging">
+      <HintPath>..\..\packages\Castle.LoggingFacility.3.3.0\lib\net45\Castle.Facilities.Logging.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Windsor">
-      <HintPath>..\..\packages\Castle.Windsor.3.2.1\lib\net45\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.AspNet">
       <HintPath>..\..\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
@@ -190,6 +193,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\UserAccessHelper.cs" />
+    <Compile Include="Installers\ControllersInstaller.cs" />
+    <Compile Include="Installers\LoggerInstaller.cs" />
+    <Compile Include="Installers\MembershipProviderInstaller.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Plumbing\CustomAdoNetAppender.cs" />
     <Compile Include="Plumbing\JsonNetResult.cs" />
@@ -200,6 +206,10 @@
     <Compile Include="Plumbing\WindsorDependencyResolver.cs" />
     <Compile Include="Plumbing\WindsorExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\IMembershipProvider.cs" />
+    <Compile Include="Providers\ISessionStorageProvider.cs" />
+    <Compile Include="Providers\MembershipProvider.cs" />
+    <Compile Include="Providers\SessionStorage.cs" />
     <Compile Include="Validation\AlphaNumericAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -320,6 +330,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Iheik.Utilities\Source\Iheik.Utilities.csproj">
+      <Project>{18a5f25a-6151-4273-9657-73a84ed6778f}</Project>
+      <Name>Iheik.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
