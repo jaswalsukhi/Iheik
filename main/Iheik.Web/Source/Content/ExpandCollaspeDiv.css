@@ -1,0 +1,54 @@
+﻿    #myUl
+    {
+        width: 500px;
+    }
+
+
+    .myLi
+    {
+        List-style-type: none;
+        cursor: pointer;
+        margin: 2px;
+        padding: 5px 5px 5px 5px;
+    }
+    ul div
+    {
+        color: #666666;
+        cursor: auto;
+        font-size: 13px;
+        padding: 5px 0 5px 20px;
+        text-decoration: none;
+        display: none;
+    }
+
+
+    .myLi div:hover
+    {
+        text-decoration: none !important;
+    }
+
+    .isTollADP:after
+    {
+        content: "+";
+        padding: 10px 10px 10px 0;
+        color: #1C9D92;
+        font-weight: bold;
+    }
+
+    .isTollADP.active:after
+    {
+        content: "-";
+        padding: 0;
+        color: #1C9D92;
+        font-weight: bold;
+    }
+
+    #toggle
+    {
+        width: 500px;
+        margin: 0 auto;
+    }
+.myJuLi
+{
+    List-style-type: none;
+}

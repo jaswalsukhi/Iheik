@@ -1,0 +1,6 @@
+﻿@{
+    ViewBag.Title = "Misc";
+}
+ @Html.ActionLink("Print", "PrintInstructionDetails", "CardLeft", new { instructionDetails = EncryptDecryptHelper.EncryptSpecialValue(Model.InstructionId.ToString()) }, new { target = "_blank", title = "Print", Class = "printButton" })
+  @CardLeft.Web.Resources.CardLeft.SelectionViewModel_TatlNumber_HelpDescription
+  @Html.DropDownListFor(model => model.CustomerServiceGroupingId, Model.CustomerServiceGroupingList, new { @class = "input-xlarge" })

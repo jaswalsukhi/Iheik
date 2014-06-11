@@ -213,6 +213,20 @@
     <Compile Include="Validation\AlphaNumericAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-custom.css" />
+    <Content Include="Content\bootstrap-datepicker.css" />
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\chosen-sprite.png" />
+    <Content Include="Content\chosen.css" />
+    <Content Include="Content\datepicker.css" />
+    <Content Include="Content\ExpandCollaspeDiv.css" />
+    <Content Include="Content\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Content\jquery-ui-1.8.custom.css" />
+    <Content Include="Content\onetoll-style.css" />
+    <Content Include="Content\spin.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -267,6 +281,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\Tweaks.css" />
+    <Content Include="Content\uiautocomplete.css" />
+    <Content Include="Content\xyz-bootstrap.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -328,6 +345,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\Misc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

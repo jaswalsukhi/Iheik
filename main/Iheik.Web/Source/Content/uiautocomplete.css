@@ -1,0 +1,15 @@
+﻿ .ui-autocomplete
+    {
+        width: 600px;
+        max-height: 200px;
+        overflow-y: auto; /* prevent horizontal scrollbar */
+        overflow-x: hidden; /* add padding to account for vertical scrollbar */
+        padding-right: 20px;
+    }
+    .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus
+    {
+        border: 0px;
+        background: Black;
+        color: White;
+        font-weight: normal;
+    }
